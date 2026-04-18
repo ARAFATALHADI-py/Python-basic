@@ -1,0 +1,17 @@
+# age = float(input("How old are you: "))
+# if age < 18:
+#     print("You are still underage.")
+# elif age >=18 and age <65:15
+#     print("You're an adult.")
+# else:
+#     print("You are a senior citizen.")
+
+temperature = float(input("Enter the current temperature (in degrees celcius): "))
+if temperature < 0:
+    print("The current temperature is extremly cold.")
+elif temperature < 10:
+    print("The current temperature is quite cold.")
+elif temperature < 25:
+    print("The current temperature is quite hot.")
+else:
+    print("The current temperature is quite hot")
